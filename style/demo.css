@@ -1,0 +1,33 @@
+
+@font-face {
+    font-family: regular;
+    src: url(../fonts/SF-Pro-Display-Regular.ttf);
+}
+
+@font-face {
+    font-family: boldfont;
+    src: url(../fonts/SF-Pro-Display-Black.ttf);
+}
+
+
+body{
+    text-align: center;
+}
+
+h2{
+    font-family: boldfont;
+    font-size: 30px;
+}
+
+
+.container{
+
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.container iframe{
+    border-radius: 30px;
+    border: solid 1px black;
+}
